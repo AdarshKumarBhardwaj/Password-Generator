@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <span id="pass-box">Testing Password....</span>
+            <div class="row">
+                <div class="left">Password Length</div>
+                <div class="right">
+                    <input type="number" name="" id="total-char" max="30" min="10" value="2"/>
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="row">
+                <label for="uppercase">
+                <div class="left">Contains Uppercase</div>
+            </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="uppercase" />
+                </div>
+            </div>
+             
+            <hr>
+
+            <div class="row">
+                <label for="lowercase">
+                <div class="left">Contains Lowercase</div>
+            </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="lowercase"/>
+                </div>
+            </div>
+
+
+
+            <hr>
+            <div class="row">
+                <label for="number">
+                <div class="left">Contains Number</div>
+            </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="numbers"/>
+                </div>
+            </div>
+<hr>
+
+            <div class="row">
+                <label for="symbols">
+                <div class="left">Contains Special-Character</div>
+            </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="symbols"/>
+                </div>
+            </div>
+
+            
+
+            <button id="btn">Generate</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
